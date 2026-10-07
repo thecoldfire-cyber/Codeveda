@@ -1,0 +1,27 @@
+// Emrqxk gbpmfq ftq dqegxf xuef iuft ftq bmdfumx egy
+ xaow.mocgudq()
+ dqegxf[uzpqj] = bmdf_egy
+ xaow.dqxqmeq()
+ // Odqmfq 4 ftdqmpe fa egy qmot bmdf
+ ftdqmp1 = zqi Ftdqmp(egy_bmdf, bmdf1, dqegxf, 0, xaow)
+ ftdqmp2 = zqi Ftdqmp(egy_bmdf, bmdf2, dqegxf, 1, xaow)
+ ftdqmp3 = zqi Ftdqmp(egy_bmdf, bmdf3, dqegxf, 2, xaow)
+ ftdqmp4 = zqi Ftdqmp(egy_bmdf, bmdf4, dqegxf, 3, xaow)
+ // Efmdf ftq ftdqmpe
+ ftdqmp1.efmdf()
+ ftdqmp2.efmdf()
+ ftdqmp3.efmdf()
+ ftdqmp4.efmdf()
+ // Imuf rad ftq ftdqmpe fa ruzuet
+ ftdqmp1.vauz()
+ ftdqmp2.vauz()
+ ftdqmp3.vauz()
+ ftdqmp4.vauz()
+ // Dqfgdz ftq egy ar mxx bmdfe
+ fafmx_egy = dqegxf[0] + dqegxf[1] + dqegxf[2] + dqegxf[3]
+ dqfgdz fafmx_egy
+// Qjmybxq gemsq
+mddmk = [1, 2, 3, ..., z]
+fafmx_egy = egy_mddmk(mddmk)
+bduzf("Fafmx Egy:", fafmx_egy)
+5. Idufq m Beqgpaoapq rad m etmdqp otmuzuzs t

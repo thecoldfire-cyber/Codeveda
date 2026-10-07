@@ -1,0 +1,27 @@
+// Gotszm idrohs hvs fsgizh zwgh kwhv hvs dofhwoz gia
+ zcqy.oqeiwfs()
+ fsgizh[wbrsl] = dofh_gia
+ zcqy.fszsogs()
+ // Qfsohs 4 hvfsorg hc gia soqv dofh
+ hvfsor1 = bsk Hvfsor(gia_dofh, dofh1, fsgizh, 0, zcqy)
+ hvfsor2 = bsk Hvfsor(gia_dofh, dofh2, fsgizh, 1, zcqy)
+ hvfsor3 = bsk Hvfsor(gia_dofh, dofh3, fsgizh, 2, zcqy)
+ hvfsor4 = bsk Hvfsor(gia_dofh, dofh4, fsgizh, 3, zcqy)
+ // Ghofh hvs hvfsorg
+ hvfsor1.ghofh()
+ hvfsor2.ghofh()
+ hvfsor3.ghofh()
+ hvfsor4.ghofh()
+ // Kowh tcf hvs hvfsorg hc twbwgv
+ hvfsor1.xcwb()
+ hvfsor2.xcwb()
+ hvfsor3.xcwb()
+ hvfsor4.xcwb()
+ // Fshifb hvs gia ct ozz dofhg
+ hchoz_gia = fsgizh[0] + fsgizh[1] + fsgizh[2] + fsgizh[3]
+ fshifb hchoz_gia
+// Sloadzs igous
+offom = [1, 2, 3, ..., b]
+hchoz_gia = gia_offom(offom)
+dfwbh("Hchoz Gia:", hchoz_gia)
+5. Kfwhs o Dgsircqcrs tcf o gvofsr qvowbwbu v

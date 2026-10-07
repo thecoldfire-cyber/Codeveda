@@ -1,0 +1,27 @@
+// Safely update the result list with the partial sum
+ lock.acquire()
+ result[index] = part_sum
+ lock.release()
+ // Create 4 threads to sum each part
+ thread1 = new Thread(sum_part, part1, result, 0, lock)
+ thread2 = new Thread(sum_part, part2, result, 1, lock)
+ thread3 = new Thread(sum_part, part3, result, 2, lock)
+ thread4 = new Thread(sum_part, part4, result, 3, lock)
+ // Start the threads
+ thread1.start()
+ thread2.start()
+ thread3.start()
+ thread4.start()
+ // Wait for the threads to finish
+ thread1.join()
+ thread2.join()
+ thread3.join()
+ thread4.join()
+ // Return the sum of all parts
+ total_sum = result[0] + result[1] + result[2] + result[3]
+ return total_sum
+// Example usage
+array = [1, 2, 3, ..., n]
+total_sum = sum_array(array)
+print("Total Sum:", total_sum)
+5. Write a Pseudocode for a shared chaining h
